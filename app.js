@@ -1,10 +1,10 @@
 function isValidCard(arrayNumbers) {
-
-  var numbers = parseInt(prompt('Ingresa tu número de trajeta'));
-  arrayNumbers = [numbers]
-
-  return console.log(Numbers)
-
+  var numbers = parseInt(prompt('Ingresa tu número de trajeta'))
+for (var i =0; i<numbers.length; i++){
+  arrayNumbers = [numbers[i]]
+}
+arrayNumbers = numbers
+  return
 }
 
-isValidCard()
+isValidCard();
